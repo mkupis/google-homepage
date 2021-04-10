@@ -1,18 +1,50 @@
-
+html {
+    font-size: 16px;
+}
 
 .nav {
     display: flex;
-    background-color: grey;
     justify-content: space-between;
+    font-size: 1.5rem;
+    
 
 }
 
 ul,li{
     display: inline;
+    padding: 1.5rem 2px;
+    
    
 }
 
 a{
     text-decoration: none;
     color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: grey;
+    width: 100%;
+    height: 80vh;
+   
+    
+    
+}
+
+.searchbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: hotpink;
+    margin-top:30vh;
+    
+}
+
+#searchform {
+    margin-top: 0.8rem;
 }
