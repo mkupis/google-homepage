@@ -2,3 +2,22 @@ html {
     font-size: 16px;
 }
 
+#input{
+        border:transparent;
+        background-color: transparent;
+        
+      }
+      input:focus,
+      select:focus,
+      textarea:focus,
+      button:focus {
+          outline: none;
+      }
+      .input-group{
+        border: 1px gray solid;
+        padding: 5px;
+        border-radius: 10px;
+        margin-top: 1rem;
+      }
+
+
