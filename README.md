@@ -1,0 +1,1 @@
+I am going to learn the basics of HTML and CSS. Uploafding to GitHub will also be done
