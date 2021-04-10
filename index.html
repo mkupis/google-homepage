@@ -15,7 +15,7 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-none">
         <button class="navbar-toggler" data-toggle="collapse" data-target="#expandme">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -23,32 +23,39 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="Home">About</a>
                 <a class="nav-item nav-link" href="Home">Store</a>
+            </div>
+            <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" href="Home">Gmail</a>
                 <a class="nav-item nav-link" href="Home">Images</a>
                 <a class="nav-item nav-link" href="Home">Button</a>
                 <a class="nav-item nav-link" href="Home">M</a>
-
             </div>
+
+
+
         </div>
     </nav>
     <div class="container-fluid">
 
 
-        <div class="d-flex flex-column align-items-center">
+        <div class="d-flex flex-column align-items-center pt-5 mt-4">
 
             <img src="googlelogo.png" alt="Google logo">
 
-            <form action="">
+            <div class="d-flex pt-4">
 
-                <input id="search" type="search">
+                <form action="">
 
+                    <input id="search" type="search">
 
+                </form>
 
-            </form>
-            <button type="button" class="btn btn-primary">Google Search</button>
-            <button type="button" class="btn btn-primary">I'm Feeling Lucky</button>
+            </div>
+            <div class="d-flex pt-4">
+                <button type="button" class="btn btn-primary mr-2">Google Search</button>
+                <button type="button" class="btn btn-primary ml-2">I'm Feeling Lucky</button>
 
-
+            </div>
 
 
         </div>
