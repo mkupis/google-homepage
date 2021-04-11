@@ -14,10 +14,37 @@ html {
           outline: none;
       }
       .input-group{
-        border: 1px gray solid;
+        border: 1px rgb(236, 231, 231) solid;
         padding: 5px;
-        border-radius: 10px;
+        border-radius: 25px;
         margin-top: 1rem;
+        width: 582px;
+        
       }
 
+      #button1 {
+          border: none;
+          background-color: #f8f9fa;
+          color: black;
+          font-weight: 350;
+          font-size: 0.9rem;
+      }
 
+      #button2 {
+        border: none;
+        background-color: #f8f9fa;
+        color: black;
+        font-weight: 350;
+        font-size: 0.9rem;
+    }
+
+      @media  (max-width: 720px) {
+        .input-group {
+            width: 400px;
+        }
+    }
+        @media  (max-width: 450px) {
+            .input-group {
+                width: 300px;
+            }
+      }
