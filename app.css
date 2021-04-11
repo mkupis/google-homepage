@@ -28,6 +28,24 @@ html {
     box-shadow: 0px 0px 0px 4px rgba(223, 223, 223, 0.788);
 }
 
+#googlelogo {
+    width:272px;
+    height: 92px;
+    margin-bottom: 0.6rem;
+
+}
+
+#searchlogo {
+    padding-left: 0.5rem;
+}
+
+#miclogo {
+    padding-right: 0.5rem;
+}
+
+#maincontainer {
+    margin-top: 5.6rem;
+}
 
 
 #input{
@@ -47,6 +65,7 @@ html {
         border-radius: 25px;
         margin-top: 1rem;
         width: 582px;
+        height:48px;
         transition: 5ms;
         
       }
@@ -98,27 +117,30 @@ html {
         left:0;
         text-decoration: none;
         font-size: 0.65rem;
-        color:black;
+        color: rgb(112, 111, 111);
     
     }
 
     .footerup {
   padding: 10px 30px;
   border-bottom: 1px solid #dadce0;
+ 
 
     }
 
     .footerdown {
         padding: 10px 30px;
+        
       
           }
 
           .linkfooter{ text-decoration: none;
-    color: black;
+            color: rgb(112, 111, 111);
 padding-right: 10px;}
 
-    .linkfooter:hover{ text-decoration: none;
-        color: black;}
+    .linkfooter:hover{ text-decoration: underline;
+        color: rgb(112, 111, 111);
+        }
 
       @media  (max-width: 720px) {
         .input-group {
