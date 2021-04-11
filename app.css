@@ -8,6 +8,27 @@ html {
     text-align: center;
   }
 
+  .navbar{
+    font-size: 0.9rem;
+  }
+
+  .rightlogo {
+      border-radius: 50%;
+      height: 32px;
+      width: 32px;
+      
+  }
+
+  #rightlogobox {
+      padding-top: 4px;
+  }
+
+  #rightlogobox:hover .rightlogo{
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0px 0px 0px 4px rgba(223, 223, 223, 0.788);
+}
+
+
 
 #input{
         border:transparent;
@@ -45,12 +66,22 @@ html {
           font-size: 0.9rem;
       }
 
+      
+
       #button2 {
         border: none;
         background-color: #f8f9fa;
         color: black;
         font-weight: 350;
         font-size: 0.9rem;
+    }
+    #button1:hover {
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 0px 0px 1px rgba(223, 223, 223, 0.788);
+    }
+    #button2:hover {
+        /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 0px 0px 1px rgba(223, 223, 223, 0.788);
     }
 
     .undersec {
