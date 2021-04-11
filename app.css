@@ -49,6 +49,38 @@ html {
         font-size: 0.8rem;
     }
 
+    .footer {
+        position: fixed;
+        background-color: rgba(230, 230, 230, 0.39);
+        width: 100%;
+        padding:0px;
+        margin-left:0;
+        bottom: 0;
+        left:0;
+        text-decoration: none;
+        font-size: 0.65rem;
+        color:black;
+    
+    }
+
+    .footerup {
+  padding: 10px 30px;
+  border-bottom: 1px solid #dadce0;
+
+    }
+
+    .footerdown {
+        padding: 10px 30px;
+      
+          }
+
+          .linkfooter{ text-decoration: none;
+    color: black;
+padding-right: 10px;}
+
+    .linkfooter:hover{ text-decoration: none;
+        color: black;}
+
       @media  (max-width: 720px) {
         .input-group {
             width: 400px;
@@ -58,4 +90,12 @@ html {
             .input-group {
                 width: 300px;
             }
+            .footerdown {
+                padding: 10px 20px;
+              
+                  }
+                  .linkfooter{ 
+                padding-right: 5px;}
+
+                .footer {font-size:0.5rem;}
       }
